@@ -56,7 +56,7 @@ body {
     color: #355A7B;
     border-left: 5px solid #355A7B;
     padding-left: 10px;
-    margin: 0px -30px;
+    margin: 0px -25px;
 }
 
 .video-section {
@@ -149,6 +149,13 @@ th {
     border-bottom: 2px solid #D3CCB2; /* Blue border under headers */
     background-color: #EAE7DC;
     color: #355A7B;
+}
+
+.transactions td:hover{
+    background-color: #C9C4B8; /* Slightly darker beige */
+    transform: scale(1.01); /* Slight zoom effect */
+    transition: all 0.2s ease-in-out; /* Smooth transition */
+    cursor: pointer;
 }
 
 /* Add Hover Effect */
