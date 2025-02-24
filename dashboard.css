@@ -9,16 +9,6 @@ body {
     display: flex;
     width: 100%;
 }
-.sidebar {
-    width: 200px;
-    background: #2C4957;
-    color: white;
-    height: 100vh;
-    overflow-y: auto;
-    top: 0;
-    left: 0;
-    position: fixed;
-}
 
 .sidebar nav ul {
     list-style: none;
@@ -220,13 +210,13 @@ th {
 .sidebar img {
     width: 30px;
     height: auto;
-    margin: 30px 20px;
+    margin: 30px 20px 10px -60px;
 }
 
 .sidebar .logo {
     width: 60px;
     height: auto;
-    margin: 50px 0px 90px;
+    margin: 50px 0px 90px -77px;
 }
 .sidebar .logout{
     margin-top: 160px;
@@ -240,8 +230,9 @@ th {
 }
 
 .menu-item span {
-    color: white; 
+    color: white;
     font-size: 15px;
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px 10px 10px -70px;
 }
